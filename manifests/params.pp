@@ -30,7 +30,7 @@ class sevenzip::params {
 
   $default_package_version    = '16.04'
   $default_package_name       = ['7-Zip 16.04 (x64)']
-  $default_download_link      = 'http://7-zip.org/a/7z1700-x64.msi'
+  $default_download_link      = 'http://7-zip.org/a/7z1604-x64.msi'
   $default_install_dir        = 'C:\Program Files\7-Zip'
 
   case $::os['name'] {

@@ -43,7 +43,7 @@ To install a specific version of sevenzip on Windows in the msi-format:
 ```puppet
     class { "sevenzip" :
       package_version => '16.04',
-      download_link => 'http://7-zip.org/a/7z1700-x64.msi',
+      download_link => 'http://7-zip.org/a/7z1604-x64.msi',
     }
 ```
 
@@ -52,7 +52,7 @@ To install a specific version of sevenzip on Windows in the exe-format:
 ```puppet
     class { "sevenzip" :
       package_version => '16.04',
-      download_link => 'http://7-zip.org/a/7z1700-x64.exe',
+      download_link => 'http://7-zip.org/a/7z1604-x64.exe',
     }
 ```
 
