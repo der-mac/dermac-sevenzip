@@ -44,7 +44,7 @@ class sevenzip::install inherits sevenzip {
           $install_options = $install_options_2
 
           package { $sevenzip::package_name:
-            ensure            => $sevenzp::package_ensure,
+            ensure            => $sevenzip::package_ensure,
             provider          => 'chocolatey',
             install_options   => $install_options,
             uninstall_options => ['-r'],
