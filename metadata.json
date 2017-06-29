@@ -1,6 +1,6 @@
 {
   "name": "dermac-sevenzip",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "dermac",
   "summary": "Installs the application 7-Zip",
   "license": "Apache-2.0",
@@ -20,7 +20,7 @@
     }
   ],
   "dependencies": [
-    {"name":"puppet-download_file","version_requirement":">= 2.0.0 <= 2.1.0"}
+     {"name":"chocolatey-chocolatey", "version_requirement":">=1.2.6 <=2.0.0"}
   ],
   "requirements": [
     {"name":"puppet","version_requirement":">= 4.5.0 < 5.0.0"}
