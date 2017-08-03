@@ -27,7 +27,7 @@ class sevenzip::params {
 
   case $::os['name'] {
     'windows': {
-      case $::os['release']['full'] {
+      case $::os['release']['major'] {
         '7', '10': {
           $package_name = $default_package_name
         }

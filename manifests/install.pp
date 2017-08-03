@@ -22,7 +22,7 @@ class sevenzip::install inherits sevenzip {
 
   case $::os['name'] {
     'windows': {
-      case $::os['release']['full'] {
+      case $::os['release']['major'] {
         '7', '10': {
           # ensure chocolatey is installed and configured
           include chocolatey
