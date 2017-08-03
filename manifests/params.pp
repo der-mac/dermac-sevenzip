@@ -32,7 +32,7 @@ class sevenzip::params {
           $package_name = $default_package_name
         }
         default: {
-          fail("The ${module_name} module is not supported on Windows Version ${::os['release']['full']} based system.")
+          fail("The ${module_name} module is not supported on Windows Version ${::os['release']['major']} based system.")
         }
       }
     }
